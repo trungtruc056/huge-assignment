@@ -1,0 +1,47 @@
+@import "colors.scss";
+@import "main.scss";
+@import "custom.scss";
+
+body {
+  background: url('../images/main-wave.svg') no-repeat fixed;
+
+  @media (max-width: 767px) {
+    background-size: 50%;
+  }
+}
+
+.tab-control {
+  .tab {
+    font-size: 150px;
+    line-height: 0.8;
+    color: $primary-color;
+    margin-bottom: 3rem;
+    opacity: 0.1;
+    cursor: pointer;
+  
+    &.active {
+      opacity: 1;
+    }
+  
+    @media (max-width: 767px) {
+      font-size: 52px;
+      line-height: 60px;
+      margin-right: 1.5rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.tab-content {
+  position: relative;
+
+  .tab-pane {
+    padding-bottom: 3rem;
+    position: absolute;
+    opacity: 0;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

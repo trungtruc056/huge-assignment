@@ -1,0 +1,39 @@
+@import "colors.scss";
+
+.primary-color {
+  color: $primary-color;
+}
+
+.primary-bg {
+  background-color: $primary-color;
+}
+
+.grey-color {
+  color: $grey-color;
+}
+
+.light-grey-color {
+  color: $light-grey-color;
+}
+
+.border-light-grey {
+  border-color: $border-light-grey;
+}
+
+.border-dark-white {
+  border-color: $border-dark-white;
+}
+
+.text-dark-white {
+  color: $text-dark-white;
+}
+
+.fs-6px {
+  font-size: 6px;
+}
+
+.fs-42px {
+  font-size: 2.625rem;
+  line-height: 3rem;
+  letter-spacing: 0.02px;
+}

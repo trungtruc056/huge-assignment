@@ -1,0 +1,17 @@
+@import url('/src/libs/css/reset.css');
+@import url('/src/fonts/huge/huge.css');
+@import "colors.scss";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $text-color;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.025em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a:focus{
+  outline: 0;
+}
